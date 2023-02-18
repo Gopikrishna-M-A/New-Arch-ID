@@ -125,9 +125,7 @@ body{
     width: 40%;
     margin: 10px auto;
   }
-  .input-field::placeholder{
-    text-align: center;
-  }
+ 
 
 }
 
