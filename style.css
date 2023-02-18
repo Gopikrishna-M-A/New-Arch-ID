@@ -76,7 +76,7 @@ body{
 .input-field{
   color: #fff;
   border:none;
-  background-color:#292929 ;
+  background-color:rgba(255, 255, 255, 0.08) ;
   padding: 0.75rem 0.375rem;
   border-radius: 5px;
   width: 100%;
@@ -122,21 +122,18 @@ body{
     position: static;
   }
   .input{
+    width: 40%;
     margin: 10px auto;
   }
   .input-field::placeholder{
     text-align: center;
   }
+
 }
+
+
 /* medium */
 @media (width <992px){
-  .input-field{
-    padding: 0.5rem 0.23rem;
-  }
-  .input-field::placeholder{
-    text-align: center;
-    font-size: .7rem;
-  }
   .notify-btn{
     font-size: .7rem;
   }
@@ -157,12 +154,7 @@ body{
   .soc-text{
     display: none;
   }
-  .links{
-    text-align: center;
-  }
-  .logo{
-    text-align: center;
-  }
+ 
   .logo-text{
     font-size: 1rem;
   }
@@ -172,11 +164,8 @@ body{
   .sub-title{
     font-size: .75rem;
   }
-  .input-field::placeholder{
-    font-size: .5rem;
-  }
-  .input{
-    width: 150px;
+  .input{ 
+    width: 300px;
     margin: 0px auto;
 
   }
